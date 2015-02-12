@@ -1,39 +1,39 @@
-#include "stm32f10x.h"
 #include "MISC_def.h"
+#include "USART_typedef.h"
+#include "RCC_typedef.h"
 
+using namespace stm32;
 using namespace delay;
+using namespace usartio;
+using namespace rcc_reg;
+using namespace std;
 
-//void Delay(u32 count)
-//{
-//u32 i=0;
-//for(;i<count;i++);
-//}
-//class C_box
-//{
-//	double m_length;
-//	bool enable;
-//	
-//};
 int main(void)
 {
+	Stm32_Clock_Init(9);
 	delay::Init();
-	GPIO_InitTypeDef GPIO_InitStructure;
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA|RCC_APB2Periph_GPIOD,ENABLE);    //使能 PA,PD 端口时钟
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;        //LED0-->PA.8  端口配置
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;        //推挽输出
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;      //IO 口速度为 50MHz 
-	GPIO_Init(GPIOA, &GPIO_InitStructure);      //根据设定参数初始化 GPIOA.8
-	GPIO_SetBits(GPIOA,GPIO_Pin_8);              //PA.8  输出高
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;    //LED1-->PD.2  端口配置,  推挽输出
-	GPIO_Init(GPIOD, &GPIO_InitStructure);        //推挽输出  ，IO 口速度为 50MHz
-	GPIO_SetBits(GPIOD,GPIO_Pin_2);          //PD.2  输出高   
+	usartio::Init();
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);	//设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+	rcc_reg::Enable(GPIOAER);
+	int* ptr=NULL;
+	ptr=new int(9);
+	if(ptr!=NULL)
+		printf("\r\nnew successful\n\r");
+	printf("%d",*ptr);
+	delete ptr;
+	if(ptr==NULL)
+		printf("\r\ndelete successful\n\r");
+	
 	while(1)
 	{
-		GPIO_ResetBits(GPIOA,GPIO_Pin_8);
-		GPIO_SetBits(GPIOD,GPIO_Pin_2);
-		delay::delay_ms(100);
-		GPIO_SetBits(GPIOA,GPIO_Pin_8);
-		GPIO_ResetBits(GPIOD,GPIO_Pin_2);
-		delay::delay_ms(100);
+		msg("msg-\r\nHelloworld汉字\r\n");
+		msgl("msgl-\r\nHelloworld汉字\r\n");
+		write("write-\r\nHelloworld汉字\r\n");
+		msg("msg-hello汉字");
+		msgl("msgl-hello汉字");
+		write("write-hello汉字");
+		printf("%d",*ptr);
 	}
 }
+
+

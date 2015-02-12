@@ -44,6 +44,15 @@ void SVC_Handler(void);
 void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
+	 
+/*
+ * ppp_IRQHandler
+ */
+
+#if 1	//使能接收
+#define USART_REC_LEN 200//定义最大接收字节数200
+void USART1_IRQHandler(void);
+#endif
 
 #ifdef __cplusplus
 }
