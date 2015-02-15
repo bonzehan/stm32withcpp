@@ -1,8 +1,8 @@
-#include "stm32f10x.h"
-#include "stm32f10x_rcc.h"
-
 #ifndef RCC_TYPEDEF
 #define RCC_TYPEDEF
+
+#include "stm32f10x.h"
+#include "stm32f10x_rcc.h"
 
 namespace rcc_reg
 {
