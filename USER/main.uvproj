@@ -103,12 +103,12 @@
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
           <SimDllArguments> -REMAP</SimDllArguments>
-          <SimDlgDll>DCM.DLL</SimDlgDll>
-          <SimDlgDllArguments>-pCM3</SimDlgDllArguments>
+          <SimDlgDll>DARMSTM.DLL</SimDlgDll>
+          <SimDlgDllArguments>-pSTM32F103RC</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
           <TargetDllArguments></TargetDllArguments>
-          <TargetDlgDll>TCM.DLL</TargetDlgDll>
-          <TargetDlgDllArguments>-pCM3</TargetDlgDllArguments>
+          <TargetDlgDll>TARMSTM.DLL</TargetDlgDll>
+          <TargetDlgDllArguments>-pSTM32F103RC</TargetDlgDllArguments>
         </DllOption>
         <DebugOption>
           <OPTHX>
@@ -143,7 +143,7 @@
             <RestoreTracepoints>1</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>0</TargetSelection>
+          <TargetSelection>4</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -157,7 +157,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>BIN\UL2CM3.DLL</Driver>
+            <Driver>Segger\JL2CM3.dll</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -419,6 +419,11 @@
               <FileType>8</FileType>
               <FilePath>.\main.cpp</FilePath>
             </File>
+            <File>
+              <FileName>Retarget.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Retarget.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -445,21 +450,6 @@
               <FilePath>..\LIB\PPP\src\misc.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_bkp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_bkp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_can.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f10x_cec.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\PPP\src\stm32f10x_cec.c</FilePath>
@@ -470,29 +460,9 @@
               <FilePath>..\LIB\PPP\src\stm32f10x_crc.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_dac.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_dac.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_dbgmcu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_dbgmcu.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_dma.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f10x_exti.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\PPP\src\stm32f10x_exti.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_flash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_fsmc.c</FileName>
@@ -503,16 +473,6 @@
               <FileName>stm32f10x_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\PPP\src\stm32f10x_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_iwdg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_iwdg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_pwr.c</FileName>
@@ -535,11 +495,6 @@
               <FilePath>..\LIB\PPP\src\stm32f10x_sdio.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_spi.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f10x_tim.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\PPP\src\stm32f10x_tim.c</FilePath>
@@ -549,11 +504,6 @@
               <FileType>1</FileType>
               <FilePath>..\LIB\PPP\src\stm32f10x_usart.c</FilePath>
             </File>
-            <File>
-              <FileName>stm32f10x_wwdg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\PPP\src\stm32f10x_wwdg.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -561,6 +511,33 @@
         </Group>
         <Group>
           <GroupName>PPPC</GroupName>
+          <Files>
+            <File>
+              <FileName>MISC_def.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\LIB\PPPC\src\MISC_def.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_typedef.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\LIB\PPPC\src\NVIC_typedef.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>RCC_typedef.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\LIB\PPPC\src\RCC_typedef.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>USART_typedef.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\LIB\PPPC\src\USART_typedef.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_typedef.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\LIB\PPPC\src\GPIO_typedef.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

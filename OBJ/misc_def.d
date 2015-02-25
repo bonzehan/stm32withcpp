@@ -1,4 +1,5 @@
 ..\obj\misc_def.o: ..\LIB\PPPC\src\MISC_def.cpp
+..\obj\misc_def.o: ..\LIB\PPPC\inc\MISC_def.h
 ..\obj\misc_def.o: ..\USER\stm32f10x.h
 ..\obj\misc_def.o: ..\CORE\core_cm3.h
 ..\obj\misc_def.o: E:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -28,4 +29,5 @@
 ..\obj\misc_def.o: ..\LIB\PPP\inc\stm32f10x_usart.h
 ..\obj\misc_def.o: ..\LIB\PPP\inc\stm32f10x_wwdg.h
 ..\obj\misc_def.o: ..\LIB\PPP\inc\misc.h
-..\obj\misc_def.o: ..\LIB\PPPC\inc\MISC_def.h
+..\obj\misc_def.o: E:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\misc_def.o: E:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdlib.h

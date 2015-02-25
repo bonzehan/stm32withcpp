@@ -1,13 +1,13 @@
 Dependencies for Project 'main', Target 'Template': (DO NOT MODIFY !)
-F (.\stm32f10x_it.c)(0x54D6126F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
-I (stm32f10x_it.h)(0x4D99A59E)
-I (stm32f10x.h)(0x4D783CB4)
+F (.\stm32f10x_it.c)(0x54DCA1F7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x54DCA1F7)
+I (stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (system_stm32f10x.h)(0x4D783CAA)
 I (stm32f10x_conf.h)(0x4D99A59E)
 I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
@@ -31,13 +31,13 @@ I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (.\system_stm32f10x.c)(0x4D99A59E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
-I (stm32f10x.h)(0x4D783CB4)
+I (stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (system_stm32f10x.h)(0x4D783CAA)
 I (stm32f10x_conf.h)(0x4D99A59E)
 I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
@@ -60,14 +60,14 @@ I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (.\main.cpp)(0x54D6182F)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (stm32f10x.h)(0x4D783CB4)
+F (.\main.cpp)(0x54E00C7C)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\LIB\PPPC\inc\MISC_def.h)(0x54DCA3D7)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (system_stm32f10x.h)(0x4D783CAA)
-I (stm32f10x_conf.h)(0x4D99A59E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
 I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
@@ -90,13 +90,49 @@ I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-I (..\LIB\PPPC\inc\MISC_def.h)(0x54D6185E)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\LIB\PPPC\inc\USART_typedef.h)(0x54DCA8FF)
+I (..\LIB\PPPC\inc\RCC_typedef.h)(0x54DEF361)
+I (..\LIB\PPPC\inc\GPIO_typedef.h)(0x54E00E3C)
+F (.\Retarget.c)(0x54DCAA8D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\retarget.o --omf_browse ..\obj\retarget.crf --depend ..\obj\retarget.d)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\rt_misc.h)(0x52FDD27E)
+I (stm32f10x.h)(0x54DF306F)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
+I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
 F (..\LIB\PPP\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -123,96 +159,9 @@ I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_can.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_cec.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
 I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -241,7 +190,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_crc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
 I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -253,93 +202,6 @@ I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_dac.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
@@ -357,7 +219,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
 I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -371,35 +233,6 @@ I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_flash.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
@@ -415,7 +248,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_fsmc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
 I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -444,7 +277,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
 I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -462,64 +295,6 @@ I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_i2c.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_iwdg.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
@@ -531,7 +306,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
 I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -560,7 +335,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
 I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -589,7 +364,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
 I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -618,7 +393,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_sdio.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
 I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -641,42 +416,13 @@ I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
 I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -705,7 +451,7 @@ I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
 F (..\LIB\PPP\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -732,37 +478,9 @@ I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPP\src\stm32f10x_wwdg.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
-I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
-I (..\CORE\core_cm3.h)(0x4D523B58)
-I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
-I (..\USER\system_stm32f10x.h)(0x4D783CAA)
-I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
-I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-F (..\LIB\PPPC\src\MISC_def.cpp)(0x54D6185E)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\misc_def.o --omf_browse ..\obj\misc_def.crf --depend ..\obj\misc_def.d)
-I (..\USER\stm32f10x.h)(0x4D783CB4)
+F (..\LIB\PPPC\src\MISC_def.cpp)(0x54DCA5DF)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\misc_def.o --omf_browse ..\obj\misc_def.crf --depend ..\obj\misc_def.d)
+I (..\LIB\PPPC\inc\MISC_def.h)(0x54DCA3D7)
+I (..\USER\stm32f10x.h)(0x54DF306F)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
@@ -790,4 +508,98 @@ I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
-I (..\LIB\PPPC\inc\MISC_def.h)(0x54D6185E)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+F (..\LIB\PPPC\src\NVIC_typedef.cpp)(0x54D8533D)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\nvic_typedef.o --omf_browse ..\obj\nvic_typedef.crf --depend ..\obj\nvic_typedef.d)
+F (..\LIB\PPPC\src\RCC_typedef.cpp)(0x54D84232)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\rcc_typedef.o --omf_browse ..\obj\rcc_typedef.crf --depend ..\obj\rcc_typedef.d)
+I (..\LIB\PPPC\inc\RCC_typedef.h)(0x54DEF361)
+I (..\USER\stm32f10x.h)(0x54DF306F)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
+F (..\LIB\PPPC\src\USART_typedef.cpp)(0x54DCA8FF)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\usart_typedef.o --omf_browse ..\obj\usart_typedef.crf --depend ..\obj\usart_typedef.d)
+I (..\LIB\PPPC\inc\USART_typedef.h)(0x54DCA8FF)
+I (..\USER\stm32f10x.h)(0x54DF306F)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
+I (..\LIB\PPPC\inc\RCC_typedef.h)(0x54DEF361)
+F (..\LIB\PPPC\src\GPIO_typedef.cpp)(0x54E00558)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\LIB\PPP\inc -I..\LIB\PPP\src -I..\LIB\OTH\inc -I..\LIB\OTH\src -I..\LIB\PPPC\inc -I..\LIB\PPPC\src-I "E:\Program Files (x86)\Keil\ARM\RV31\INC"-I "E:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "E:\Program Files (x86)\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\gpio_typedef.o --omf_browse ..\obj\gpio_typedef.crf --depend ..\obj\gpio_typedef.d)
+I (..\LIB\PPPC\inc\GPIO_typedef.h)(0x54E00E3C)
+I (..\USER\stm32f10x.h)(0x54DF306F)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\PPP\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\PPP\inc\misc.h)(0x4D783BB4)
+I (..\LIB\PPPC\inc\RCC_typedef.h)(0x54DEF361)

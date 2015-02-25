@@ -130,12 +130,27 @@ void PendSV_Handler(void)
   * @param  None
   * @retval None
   */
+#if 1//使用了uip协议（以太网）
+__IO int32_t uip_RunTime = 0;
+#endif
+__IO int32_t ms_RunTime = 0;
 void SysTick_Handler(void)
 {
-	#ifdef OS_CRITICAL_METHOD//如果使用ucosII
-	OSIntEnter();				//进入中断
-    OSTimeTick();				//调用ucos的时钟服务程序               
-    OSIntExit();				//触发任务切换软中断
+	ms_RunTime++;
+	if (ms_RunTime == 0x80000000)
+	{
+		ms_RunTime = 0;
+	}//全局运行时钟，1ms加1,0x800000000=2147483648ms=596hours
+	
+	#if 1//使用了uip协议（以太网）
+	static u8 uip_count = 0;
+    if(++uip_count>9)
+    {
+        uip_count = 0;
+        uip_RunTime++;
+        if (uip_RunTime == 0x80000000)
+            uip_RunTime = 0;      
+    }//uip以太网运行时钟10ms加1
 	#endif
 }
 

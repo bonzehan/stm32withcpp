@@ -1,0 +1,7 @@
+OBJ/
+USER/*.txt
+USER/*.ini
+USER/*.uvopt
+USER/*.uvproj
+USER/*.dep
+USER/*.bak
